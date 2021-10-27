@@ -6,7 +6,7 @@ from typing import List
 escala_cromatica = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
 
 
-class Escalas():
+class Escalas:
     def __init__(self, tom, estado):
         self.tom = tom
         self.estado = estado
