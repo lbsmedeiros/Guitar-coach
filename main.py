@@ -1,20 +1,7 @@
-"""
-1 - Log in
-2 - Verificar se é o primeiro login
-2.1 - Se for o primeiro login, atestar conhecimento do usuário. Conhecer usuário.
-        - O que ele já sabe (haverá um banco de dados contendo os nomes das matérias separadas por módulos)
-        - Musicas que já conhece para compor repertório de prática
-2.2 - Caso não seja o primeiro login, perguntar se aprendeu algo novo.
-3 - Iniciar o programa.
-"""
-
-import modulos
+from modulos import Escalas, escala_cromatica, estados
 from random import randint
 
 if __name__ == '__main__':
-    escala_cromatica = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B']
-    estados = ['Maior', 'Menor Natural', 'Menor Harmônico', 'Menor Melódico']
-
     escolha1 = int(input('Escolher tom ou sortear [ 1 / 2 ]: '))
 
     if escolha1 == 1:
@@ -28,7 +15,7 @@ if __name__ == '__main__':
         tom = randint(0, 11)
         estado = randint(0, 3)
 
-    a = modulos.Escalas(tom, estado)
+    a = Escalas(tom, estado)
     print(a.maior())
     print(a.menor_natural())
     print(a.menor_harmonica())
