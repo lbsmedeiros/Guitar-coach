@@ -1,4 +1,4 @@
-from modulos import Escalas, escala_cromatica, estados
+from modulos import Coatch, escala_cromatica, estados, campo_harmonico
 from random import randint
 
 if __name__ == '__main__':
@@ -15,9 +15,6 @@ if __name__ == '__main__':
         tom = randint(0, 11)
         estado = randint(0, 3)
 
-    a = Escalas(tom, estado)
-    print(a.maior())
-    print(a.menor_natural())
-    print(a.menor_harmonica())
-    print(a.menor_melodica())
-    print(f'Aquecimento: {a.aquecimento()}')
+    coatch = Coatch(tom, estado)
+    print(f'Aquecimento: {coatch.aquecimento()}')
+    print(campo_harmonico(tom, estado))

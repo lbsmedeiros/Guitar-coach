@@ -1,0 +1,69 @@
+if usuario cria conta
+    coletar materias conhecidas em harmonia, melodia/improviso, e técnica
+    músicas conhecidas para repertório
+
+if usuario faz login
+    - perguntar se quer escolher ou mudar uma materia para dar ênfase (treinar todos os dias)
+    if sim
+        relatar
+        incluir no db
+        tratar para aparecer todos os dias no treino
+
+    - perguntar se aprendeu matéria nova
+    if sim
+        incluir no db
+
+    - perguntar se adicionou alguma música nova ao repertório
+    if sim
+        incluir no db
+
+    - rodar programa principal
+----------------------------------------
+programa principal
+    perguntar quanto tempo disponível
+        lembrar último tempo (se disponível) para agilizar
+    --------------------------------------------------------------------------
+    <tratando tempo>
+        reservar sempre 5 minutos para alongamento e aquecimento
+        10 minutos:
+            esses 5 minutos serão usados para a matéria ou técnica que quer dar ênfase
+        15 minutos:
+            5 minutos para matéria ou técnica da ênfase
+            5 para materia nova ou materia aleatoria
+        20 minutos:
+            5 minutos para matéria ou técnica da ênfase
+            5 para materia nova ou materia aleatoria
+            5 minutos pattern
+        30 minutos:
+            5 minutos para matéria ou técnica da ênfase
+            5 minutos para técnica sortida
+            5 para materia nova ou materia aleatoria
+            5 minutos pattern
+            5 minutos improviso
+        45 minutos:
+            5 minutos para matéria ou técnica da ênfase
+            5 minutos para técnica sortida
+            se houver materia nova
+                5 minutos para materia nova
+            5 minutos para materia aleatoria
+            5 minutos pattern
+            5 minutos harmonia
+            se houver materia nova
+                5 minutos improviso
+            else
+                10 minutos improviso
+            ~5 minutos repertório
+        1h ou mais:
+            10% para matéria ou técnica da ênfase
+            10% para técnica sortida
+            se houver materia nova
+                10% para materia nova
+            10% para materia aleatoria
+            10% pattern
+            10% harmonia
+            se houver materia nova
+                10% improviso
+            else
+                20% improviso
+            30% repertório
+    --------------------------------------------------------------------------

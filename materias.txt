@@ -1,5 +1,52 @@
-# ------------------------------------- Ritmo
+# ------------------------------------- Técnica
+Palhetada Alternada
+Pedal Point
+Hammer on/Pull off
+Sweep
+    Arpejos em tríade
+    Microarpejos
+    Arpejos em tétrade
+Tapping
+Two handed Tapping
+Salto de cordas com tétrades e tapping
 
+# ------------------------------------- Improviso
+Ritmo
+Tríades
+    Por 1 corda
+    Por 2 cordas
+    Aberta
+    Aberta com tensões
+    Fechada
+Tétrades
+    Por 2 cordas
+    Aberta
+    Aberta com tensões
+    Fechada
+Intervalos
+    Cromáticamente
+    Nos Modos
+Pentatônicas
+    Deslocamento vertical
+    Deslocamento horizontal
+    Deslocamento horizontal (2 cordas)
+    Deslocamento diagonal
+    Patterns
+    Licks
+Ciclo de Quintas
+Ciclo de Quartas
+Escala Maior Diatônica
+Modos Gregos
+    Deslocamento vertical
+    Deslocamento horizontal
+    Deslocamento horizontal (2 cordas)
+    Deslocamento diagonal
+    Patterns
+    Licks
+Intensão Menor
+    Quando aplicamos um elemento melódico menor em uma harmonia maior
+Escala Menor Harmônica
+Double Stop
 
 # ------------------------------------- Harmonia
 Relativas
@@ -8,7 +55,6 @@ Tríade
     Menor
     Diminuta
     Aumentada
-    Notas por cordas
     Shapes
     Primeira Inversão
         Quando a terça vai para o baixo do acorde
@@ -62,49 +108,20 @@ Tensões Diatônicas
     11 (4)
     13 (6)
     Tensões em tríades: Omitem a terça
-    Tensões em tétrades: Omitem a quinta. Exceto em acordes com quinta  --maior ou menor onde será omitida a tônica
+    Tensões em tétrades: Omitem a quinta. Exceto em acordes com quinta diminuta ou aumentada onde será omitida a tônica
     Dominante com tensão 9 ou 13 prepara para um acorde maior
     Dominante com tensão b9 ou b13 prepara para um acorde menor
-Intervalos
-    Cromáticamente
-    Nos Modos
 II, V, I
     Uma forma de preparar o acorde
 Sub V
-    Substitui o V7. Trata-se de um acorde dominante feito meio tom acima    --do acorde de resolução.
+    Substitui o V7. Trata-se de um acorde dominante feito meio tom acima do acorde de resolução.
     Melhor tensão: #11
 Emprestimo modal
-    Aplicar um acorde menor numa música maior ou um acorde maior numa   música menor
-    Usar Ab no lugar de Abm ou C#m no lugar de C#
+    Aplicar um acorde menor numa música maior ou um acorde maior numa música menor
 Diminuto de passagem
-    Quando o baixo do acorde diminuto está interligando os baixos dos   acordes anterior e posterior
+    Quando o baixo do acorde diminuto está interligando os baixos dos acordes anterior e posterior
     C7M, C#°, Dm7
 Chord Melody
-
-# ------------------------------------- Melodia
-Pentatônicas
-    Deslocamento vertical
-    Deslocamento horizontal
-    Deslocamento horizontal (2 cordas)
-    Deslocamento diagonal
-    Patterns
-    Licks
-Ciclo de Quintas
-Ciclo de Quartas
-Escala Maior Diatônica
-Modos Gregos
-    Deslocamento vertical
-    Deslocamento horizontal
-    Deslocamento horizontal (2 cordas)
-    Deslocamento diagonal
-    Patterns
-    Licks
-Intensão Menor
-    Quando aplicamos um elemento melódico menor em uma harmonia maior
-Escala Menor Harmônica
-Double Stop
-Tríades fechadas
-Tríades abertas
 
 # ------------------------------------- Leitura
 Notação
@@ -154,15 +171,3 @@ Notação
         Haste
             Abaixo da terceria linha, as hastes apontam para cima. Acima da terceira linha, elas apontam para baixo. E sobre a terceira linha, elas podem apontar em ambas as direções conforme a necessidade.
         Cabeça
-
-# ------------------------------------- Técnica
-Palhetada Alternada
-Pedal Point
-Hammer on/Pull off
-Sweep
-    Arpejos em tríade
-    Microarpejos
-    Arpejos em tétrade
-Tapping
-Two handed Tapping
-Salto de cordas com tétrades e tapping
