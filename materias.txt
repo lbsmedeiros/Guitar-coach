@@ -1,5 +1,11 @@
+SEMPRE MANTER O PULSO LEVE A NÃO SER QUE A DINÂMICA DEMANDE PALHETADAS VIOLENTAS
+
 # ------------------------------------- Técnica
 Palhetada Alternada
+    pulso (tipo rítmico)
+    usar a palhetada alternada em arpegios e acordes 2 palhetadas por corda
+    usar a palhetada alternada em arpegios e acordes 1 palhetadas por corda
+    tocar um modo mas alternar entre tercinas e sextinas
 Pedal Point
 Hammer on/Pull off
 Sweep
@@ -9,6 +15,10 @@ Sweep
 Tapping
 Two handed Tapping
 Salto de cordas com tétrades e tapping
+
+--- Muitas pessoas usam fôrmas diferentes da mão da palheta para cada técnica e, quando se deparam com um lick que usa
+várias técnicas diferentes, encontram dificuldade. Um exercício para resolver isso é um que alterne entre 2 tecnicas
+diferentes no mesmo exercício tentando sempre localizar uma fôrma comum entre todas as técnicas.
 
 # ------------------------------------- Improviso
 Ritmo

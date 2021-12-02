@@ -17,4 +17,5 @@ if __name__ == '__main__':
 
     coatch = Coatch(tom, estado)
     print(f'Aquecimento: {coatch.aquecimento()}')
-    print(campo_harmonico(tom, estado))
+    print(f'{escala_cromatica[tom]} {estados[estado]}')
+    print(campo_harmonico(tom, estado, 'triade'))
