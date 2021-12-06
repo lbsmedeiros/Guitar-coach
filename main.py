@@ -1,4 +1,4 @@
-from modulos import Coatch, escala_cromatica, estados, campo_harmonico
+from modulos import Coatch, escala_cromatica, estados, formacoes
 from random import randint
 
 if __name__ == '__main__':
@@ -11,11 +11,13 @@ if __name__ == '__main__':
         escolha3 = input(f'Selecione o estado desejado para o tom {escolha2}: ')
         # Também será botão mas aqui, use 'Maior', 'Menor Natural', 'Menor Harmônico' ou 'Menor Melódico'
         estado = estados.index(escolha3)
+        escolha4 = input('Tríade ou tétrade: ')
+        formacao = formacoes.index(escolha4)
+
     else:
         tom = randint(0, 11)
         estado = randint(0, 3)
+        formacao = randint(0, 1)
 
-    coatch = Coatch(tom, estado)
-    print(f'Aquecimento: {coatch.aquecimento()}')
-    print(f'{escala_cromatica[tom]} {estados[estado]}')
-    print(campo_harmonico(tom, estado, 'triade'))
+    coatch = Coatch(tom, estado, formacao, tempo=10)
+    coatch.run()
